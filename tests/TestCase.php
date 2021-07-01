@@ -2,9 +2,9 @@
 
 namespace Cristhiancoaquira\TestPackage\Tests;
 
+use Cristhiancoaquira\TestPackage\TestPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cristhiancoaquira\TestPackage\TestPackageServiceProvider;
 
 class TestCase extends Orchestra
 {

@@ -2,9 +2,9 @@
 
 namespace Cristhiancoaquira\TestPackage;
 
+use Cristhiancoaquira\TestPackage\Commands\TestPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cristhiancoaquira\TestPackage\Commands\TestPackageCommand;
 
 class TestPackageServiceProvider extends PackageServiceProvider
 {
