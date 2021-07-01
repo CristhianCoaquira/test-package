@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "cristhiancoaquira/test-package",
+    "description": "This is my package TestPackage",
     "keywords": [
-        ":vendor_name",
+        "CristhianCoaquira",
         "laravel",
-        "package_slug"
+        "test-package"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/cristhiancoaquira/test-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Cristhian Coaquira",
+            "email": "cristhiandanielcoaquira@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Cristhiancoaquira\\TestPackage\\": "src",
+            "Cristhiancoaquira\\TestPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Cristhiancoaquira\\TestPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Cristhiancoaquira\\TestPackage\\TestPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "TestPackage": "Cristhiancoaquira\\TestPackage\\TestPackageFacade"
             }
         }
     },
